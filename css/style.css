@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Wisdom;
+  src: url(../fonts/wisdom_words/Wisdom\ Words\ Personal\ Use.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  src: url(../fonts/montserrat-v18-latin/montserrat-v18-latin-regular.woff);
+}
+@font-face {
+    font-family: DroidSerif;
+    src: url(../fonts/droidserif/DroidSerif-Italic.ttf);
+}
+.header_logo {
+  font-size: 26px;
+  font-family: "Wisdom";
+  color: rgb(254, 209, 54);
+  text-decoration: none;
+}
+.body__wrapper {
+  margin: auto;
+  max-width: 1400px;
+}
+.header_wrapper {
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px auto 120px auto;
+}
+.main_nav {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 485px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px;
+}
+.main_nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.services_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.services_list_wrapper {
+  display: flex;
+}
+.services_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 940px;
+}
+.services_icon {
+  width: 66px;
+  height: 66px;
+  border: 4px solid rgb(254, 209, 54);
+  border-radius: 50%;
+}
+.e_commerce_icon {
+  background-image: url(../img/Icon-Basket.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.responsive_web_icon {
+  background-image: url(../img/Icon-Laptop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.web_security_icon {
+  background-image: url(../img/Icon-Locked.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.list_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list_sub_title {
+  width: 278px;
+}
+.section_services_title{
+    margin: 0px 0px 20px 0px;
+    text-transform: uppercase;
+    font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(34, 34, 34);
+  font-weight: 700;
+}
+.section_services_sub_title{
+    font-size: 16px;
+  font-family: "DroidSerif";
+  color: rgb(119, 119, 119);
+  font-style: italic;
+  margin-bottom: 78px;
+}
+.main_wrapper{
+    margin: auto;
+}
+.contact_us_wrapper{
+    background-image: url(../img/Map\ Image.png);
+    max-width: 1400px;
+    height: 676px;
+}
