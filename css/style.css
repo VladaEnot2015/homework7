@@ -8,8 +8,8 @@
   src: url(../fonts/montserrat-v18-latin/montserrat-v18-latin-regular.woff);
 }
 @font-face {
-    font-family: DroidSerif;
-    src: url(../fonts/droidserif/DroidSerif-Italic.ttf);
+  font-family: DroidSerif;
+  src: url(../fonts/droidserif/DroidSerif-Italic.ttf);
 }
 .header_logo {
   font-size: 26px;
@@ -91,26 +91,99 @@
 .list_sub_title {
   width: 278px;
 }
-.section_services_title{
-    margin: 0px 0px 20px 0px;
-    text-transform: uppercase;
-    font-size: 40px;
+.section_services_title {
+  margin: 0px 0px 20px 0px;
+  text-transform: uppercase;
+  font-size: 40px;
   font-family: "Montserrat";
   color: rgb(34, 34, 34);
   font-weight: 700;
 }
-.section_services_sub_title{
-    font-size: 16px;
+.section_services_sub_title {
+  font-size: 16px;
   font-family: "DroidSerif";
   color: rgb(119, 119, 119);
   font-style: italic;
   margin-bottom: 78px;
 }
-.main_wrapper{
-    margin: auto;
+.main_wrapper {
+  margin: auto;
 }
-.contact_us_wrapper{
-    background-image: url(../img/Map\ Image.png);
-    max-width: 1400px;
-    height: 676px;
+.contact_us {
+  background-color: black;
+  width: 1400px;
+}
+.contact_us_wrapper {
+  background-image: url(../img/Map\ Image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 676px;
+  background-position-y: 45px ;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.section_contact_us_title {
+  margin: 0px 0px 20px 0px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  padding-top: 100px;
+  margin: 0px 0px 20px 0px;
+}
+.section_contact_us_sub_title {
+  font-size: 16px;
+  font-family: "DroidSerif";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  margin-bottom: 78px;
+}
+.input_name_email_subject{
+  display: flex;
+  flex-flow: column;
+}
+.name_email_subject{
+  width: 455px;
+  height: 50px;
+  margin-bottom: 24px;
+}
+.name_email_subject:last-child{
+  margin-bottom: 0px;
+}
+.your_message{
+  width: 455px;
+  height: 210px;
+}
+.input_fields{
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  margin-bottom: 30px;
+}
+.contact_us_form{
+  width: 940px;
+  margin-bottom: 115px;
+}
+.form_button{
+  width: 240px;
+  height: 65px;
+  background-color: rgb(254, 209, 54);
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: none;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  cursor: pointer;
+}
+.form_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
