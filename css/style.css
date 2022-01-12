@@ -71,7 +71,7 @@
   padding: 0px;
   flex-wrap: wrap;
   flex-direction: row;
-  max-width: 940px;
+  width: 940px;
 }
 .services_icon {
   width: 66px;
@@ -129,7 +129,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: 676px;
-  background-position-y: 45px ;
+  background-position-y: 45px;
   display: flex;
   margin: auto;
   flex-direction: column;
@@ -152,33 +152,33 @@
   font-style: italic;
   margin-bottom: 78px;
 }
-.input_name_email_subject{
+.input_name_email_subject {
   display: flex;
   flex-flow: column;
 }
-.name_email_subject{
+.name_email_subject {
   width: 455px;
   height: 50px;
   margin-bottom: 24px;
 }
-.name_email_subject:last-child{
+.name_email_subject:last-child {
   margin-bottom: 0px;
 }
-.your_message{
+.your_message {
   width: 455px;
   height: 210px;
 }
-.input_fields{
+.input_fields {
   display: flex;
   justify-content: space-between;
   width: 940px;
   margin-bottom: 30px;
 }
-.contact_us_form{
+.contact_us_form {
   width: 940px;
   margin-bottom: 115px;
 }
-.form_button{
+.form_button {
   width: 240px;
   height: 65px;
   background-color: rgb(254, 209, 54);
@@ -192,15 +192,15 @@
   font-weight: 800;
   cursor: pointer;
 }
-.form_wrapper{
+.form_wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-input:invalid{
+input:invalid {
   outline: red 2px solid;
 }
-input:valid{
+input:valid {
   outline: green 2px solid;
 }
