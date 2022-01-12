@@ -1,6 +1,6 @@
 @font-face {
   font-family: Wisdom;
-  src: url(../fonts/wisdom_words/Wisdom\ Words\ Personal\ Use.ttf);
+  src: url(../fonts//wisdom-script-cufonfonts/Wisdom\ Script\ AJ.otf);
 }
 @font-face {
   font-family: Montserrat;
@@ -8,8 +8,18 @@
   src: url(../fonts/montserrat-v18-latin/montserrat-v18-latin-regular.woff);
 }
 @font-face {
+  font-family: Montserrat;
+  font-weight: 500;
+  src: url(../fonts/montserrat-v18-latin/montserrat-v18-latin-500.woff2);
+}
+@font-face {
   font-family: DroidSerif;
   src: url(../fonts/droidserif/DroidSerif-Italic.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 600;
+  src: url(../fonts/montserrat-v18-latin/montserrat-v18-latin-800.woff2);
 }
 .header_logo {
   font-size: 26px;
@@ -41,7 +51,7 @@
   text-transform: uppercase;
   cursor: pointer;
   font-family: "Montserrat";
-  font-weight: 600;
+  font-weight: 500;
   color: rgb(34, 34, 34);
 }
 .services_wrapper {
@@ -52,6 +62,7 @@
 }
 .services_list_wrapper {
   display: flex;
+  margin-bottom: 100px;
 }
 .services_list {
   display: flex;
@@ -97,7 +108,7 @@
   font-size: 40px;
   font-family: "Montserrat";
   color: rgb(34, 34, 34);
-  font-weight: 700;
+  font-weight: 600;
 }
 .section_services_sub_title {
   font-size: 16px;
@@ -186,4 +197,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+input:invalid{
+  outline: red 2px solid;
+}
+input:valid{
+  outline: green 2px solid;
 }
